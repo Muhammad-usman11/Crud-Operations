@@ -1,6 +1,9 @@
 
 import './App.css';
-import TodoList from './components/TodoList';
+
+import Weather from './components/weather/Weather';
+// import TodoList from './components/TodoList';
+
 
 function App() {
   return (
@@ -8,7 +11,8 @@ function App() {
 
    
 
-   <TodoList/>
+   {/* <TodoList/> */}
+   <Weather />
    
    
    
